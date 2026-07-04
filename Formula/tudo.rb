@@ -1,28 +1,28 @@
 class Tudo < Formula
   desc "Fast, local-first todo list for your terminal"
   homepage "https://github.com/jolleyDesign/tudo"
-  version "1.0.5"
+  version "1.0.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jolleyDesign/tudo/releases/download/v1.0.5/tudo-aarch64-apple-darwin.tar.gz"
-      sha256 "78326906da095e04395c49b35525cf2eeb8020b07e7860b232d8f18a55fe2af1"
+      url "https://github.com/jolleyDesign/tudo/releases/download/v1.0.6/tudo-aarch64-apple-darwin.tar.gz"
+      sha256 "bd810c750b01b2894351ab621dd235d0b1b4f2d799982064077c7f4716138bf5"
     end
     on_intel do
-      url "https://github.com/jolleyDesign/tudo/releases/download/v1.0.5/tudo-x86_64-apple-darwin.tar.gz"
-      sha256 "bd08a0d3a5cd5def990d0198a9627b405662268b8ed08a77a3a17c03caab8827"
+      url "https://github.com/jolleyDesign/tudo/releases/download/v1.0.6/tudo-x86_64-apple-darwin.tar.gz"
+      sha256 "2a169199c15f3831f5d1b91efa40c69163deec59345b1d9ff003923d0b7a6101"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jolleyDesign/tudo/releases/download/v1.0.5/tudo-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "294219d629e31294961cf7f7a5c969b11954b8319b74977898dd7a44e959a3bd"
+      url "https://github.com/jolleyDesign/tudo/releases/download/v1.0.6/tudo-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "03e9a621c536a44c89ccd106b2a45a541e76afda3a43ac40c398c4a9a3cd9161"
     end
     on_intel do
-      url "https://github.com/jolleyDesign/tudo/releases/download/v1.0.5/tudo-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d23d00a524a7eb86172331737461896253c4b482ecb6efc2c2865adad1f38e2a"
+      url "https://github.com/jolleyDesign/tudo/releases/download/v1.0.6/tudo-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "7df8b7700ece638e4b4beb4c37231efd6af6a76e76ee9ddbb0bbba4cfbcdb661"
     end
   end
 
